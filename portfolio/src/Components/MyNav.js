@@ -1,22 +1,18 @@
 import React from "react";
-import { Navbar, Nav, NavbarBrand, NavItem, NavLink } from "reactstrap";
+import { Button } from "reactstrap";
 import logo from "../logo.png";
+import "./MyNav.css";
 
 const MyNav = () => {
   return (
-    <React.Fragment>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand>
-          <img src={logo} alt="logo" height="60px" width="60px" />
-        </NavbarBrand>
-
-        <Nav className="ml-auto" navbar>
-          <NavItem>
-            <NavLink href="./Contact">Contact</NavLink>
-          </NavItem>
-        </Nav>
-      </Navbar>
-    </React.Fragment>
+    <div className="nav-wrapper">
+      <div className="logo">
+        <img src={logo} alt="logo" height="60px" width="60px" />
+      </div>
+      <div className="contact">
+        <Button href="mailto:zaclew922@gmail.com">Shoot me an email!</Button>
+      </div>
+    </div>
   );
 };
 

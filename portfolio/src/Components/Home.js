@@ -10,13 +10,15 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <div className="home-wrapper">
+      <React.Fragment>
         <MyNav />
-        <Intro />
-        <Skills />
-        <Work />
-        <Footer />
-      </div>
+        <div className="home-wrapper">
+          <Intro />
+          <Skills />
+          <Work />
+          <Footer />
+        </div>
+      </React.Fragment>
     );
   }
 }
