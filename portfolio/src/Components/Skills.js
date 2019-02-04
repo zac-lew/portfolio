@@ -8,7 +8,7 @@ const Skills = () => {
       <p>
         Through my education, work and years of experience experimenting with
         different web development technologies, I have managed to accumulate a
-        handy number of both technical and professional skills
+        handy number of both technical and professional skills.
       </p>
       <div className="skills-card">
         <div className="technical-skills">

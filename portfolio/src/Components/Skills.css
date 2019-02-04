@@ -1,8 +1,7 @@
 .skills {
-  background-color: #7fda57;
+  background: linear-gradient(#7fda57 50%, #fff 50%);
   color: #fff;
   padding: 3%;
-  max-height: 500px;
 }
 
 .skills > h1 {

@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="intro">
-      <h1>G'day, my name is Zac and I design websites</h1>
+      <h1>G'day, my name's Zac and I design websites</h1>
       <h2>Who am I?</h2>
       <p>
         I'm an enthusiastic and determined engineering student with a passion
