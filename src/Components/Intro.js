@@ -1,19 +1,20 @@
 import React from "react";
+import "./Intro.scss";
+import Profile from "../Assets/profile.png";
 
 const Intro = () => {
   return (
     <div className="intro">
-      <h1>G'day, my name's Zac and I design websites</h1>
-      <h2>Who am I?</h2>
-      <p>
-        I'm an enthusiastic and determined engineering student with a passion
-        for technology. I'm currently studying Mechatronics and Biomedical
-        Engineering at UNSW (Sydney, Australia). I have strong experience in web
-        development with a particular focus on front end and UX (user
-        experience) design. I'm proficient in JS (particularly React.js), HTML,
-        CSS and many other web and software technologies. I focus on clean code
-        and minimalist, function design.
-      </p>
+      <div className="name">Zac Lew</div>
+      <div className="role">Web Developer and Mechatronics Engineer</div>
+      <img src={Profile} className="profile" />
+      <div className="who">Who am I?</div>
+      <div className="bio">
+        My name's Zac and I build elegantly simple and beautiful websites. I have a Masters in Biomedical Engineering
+        and a Bachelors in Mechatronics Engineering. On top of these qualifications I have a wealth of experience
+        building software, with a focus on Front-End Web Developement. I love writing code, designing websites,
+        programming robots; pretty much anything that involves computers.
+      </div>
     </div>
   );
 };

@@ -1,40 +1,42 @@
 import React from "react";
-import "./Work.css";
+import "./Work.scss";
+import { Westpac } from "../Assets/Logos";
 
 const Work = () => {
   return (
     <div className="work">
-      <h1>Work and Education</h1>
+      <div className="header">Work</div>
       <p>
-        Through my education and working history I have been lucky enough to
-        hone and develop the essential skills needed to thrive under high
-        pressure conditions and work well in many different environments.
+        Most of my software development is focussed around front-end web development using the JavaScript framework
+        React. This allows me to build interactive web applications and are both aesthetic and functional.
       </p>
-      <div className="box-wrapper">
-        <div className="education">
-          <h2>University of New South Wales</h2>
-          <h3>
-            Master of Biomedical Engineering / Bachelor of Mechatronics
-            Engineering
-          </h3>
-          <ul>
-            <li>Software development skills</li>
-            <li>Web development</li>
-            <li>Building and interfacing mechatronic systems</li>
-            <li>Research and prototyping biomedical technologies</li>
-          </ul>
-        </div>
-        <div className="work1">
-          <h2>Web Developer Intern</h2>
-          <h3>Westpac Banking Corporation | 2018 - present</h3>
-          <ul>
-            <li>Design and development of user interfaces with React.js</li>
-            <li>
-              Implementation of Restful API's to retrieve and display data
-            </li>
-            <li>Agile work environment</li>
-            <li>Use of Git and project management technologies</li>
-          </ul>
+      <div className="job-container">
+        <img src={Westpac} className="logo" />
+        <div className="title">Junior Developer</div>
+        <div className="date">2018 - Current</div>
+        <div className="job-body">
+          <div className="description">
+            <div className="date">The Role</div>
+            <div className="list">
+              <ul>
+                <li>Design and development of user interfaces with React.js</li>
+                <li>Implementation of Restful API's to retrieve and display data</li>
+                <li>Agile work environment</li>
+                <li>Use of Git and project management technologies</li>
+              </ul>
+            </div>
+          </div>
+          <div className="tools">
+            <div className="date">Typical Development Stack</div>
+            <div className="list">
+              <ul>
+                <li>Front End: React.js</li>
+                <li>Back End: Java</li>
+                <li>Source Control: BitBucket (Git)</li>
+                <li>Unit Testing: Jest</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

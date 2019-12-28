@@ -1,17 +1,17 @@
 import React from "react";
 import { Button } from "reactstrap";
 import logo from "../logo.png";
-import "./MyNav.css";
+import "./MyNav.scss";
 
 const MyNav = () => {
   return (
     <div className="nav-wrapper">
       <div className="logo">
-        <img src={logo} alt="logo" height="60px" width="60px" />
+        <i class="fas fa-code icon" />
       </div>
-      <div className="contact">
-        <Button href="mailto:zaclew922@gmail.com">Shoot me an email!</Button>
-      </div>
+      <a class="contact" href="mailto:zaclew922@gmail.com">
+        Contact Me
+      </a>
     </div>
   );
 };

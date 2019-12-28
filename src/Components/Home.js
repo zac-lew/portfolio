@@ -5,6 +5,7 @@ import Intro from "./Intro";
 import Skills from "./Skills";
 import Work from "./Work";
 import Footer from "./Footer";
+import Education from "./Education";
 
 class Home extends Component {
   state = {};
@@ -16,6 +17,7 @@ class Home extends Component {
           <Intro />
           <Skills />
           <Work />
+          <Education />
           <Footer />
         </div>
       </React.Fragment>
