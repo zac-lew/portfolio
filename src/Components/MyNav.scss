@@ -1,0 +1,22 @@
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 5% 0.5% 5%;
+  .icon {
+    font-size: 50pt;
+    color: #a4cacb;
+  }
+  .contact {
+    display: block;
+    color: #a4cacb;
+    font-weight: 800;
+    font-size: 18pt;
+  }
+  .contact:hover {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20pt;
+  }
+}
