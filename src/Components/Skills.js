@@ -7,10 +7,8 @@ import {
   SASS,
   ReactJs,
   Redux,
-  Bootstrap,
   PS,
   Matlab,
-  ReactNative,
   Node,
   PHP,
   MySQL,
@@ -20,20 +18,19 @@ import {
   Heroku
 } from "../Assets/Logos";
 
-const Skills = () => {
+const Skills = ({ isMobile }) => {
   return (
     <div className="skills">
       <h1>
         <span>Skills</span>
       </h1>
-      <i class="fas fa-code icon" />
       <div className="body-text">
         I've spent plenty of time at my computer over the last few years, here's a few of the things I've mucked around
         with:
       </div>
       <div className="skills-card">
         <div className="technical-skills">
-          <div className="card-header">
+          <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Front-End</h2>
           </div>
           <div className="skill-section front-end">
@@ -64,7 +61,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="technical-skills">
-          <div className="card-header">
+          <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Back-End</h2>
           </div>
           <div className="skill-section back-end">
@@ -91,7 +88,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="technical-skills">
-          <div className="card-header">
+          <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Other</h2>
           </div>
           <div className="skill-section other">

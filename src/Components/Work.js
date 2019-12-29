@@ -2,9 +2,9 @@ import React from "react";
 import "./Work.scss";
 import { Westpac } from "../Assets/Logos";
 
-const Work = () => {
+const Work = ({ isMobile }) => {
   return (
-    <div className="work">
+    <div className={isMobile ? "mobile-work work" : "work"}>
       <div className="header">Work</div>
       <p>
         Most of my software development is focussed around front-end web development using the JavaScript framework

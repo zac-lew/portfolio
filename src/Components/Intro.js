@@ -1,13 +1,14 @@
 import React from "react";
 import "./Intro.scss";
 import Profile from "../Assets/profile.png";
+import MobileProfile from "../Assets/mobileprofile.png";
 
-const Intro = () => {
+const Intro = ({ isMobile }) => {
   return (
     <div className="intro">
       <div className="name">Zac Lew</div>
       <div className="role">Web Developer and Mechatronics Engineer</div>
-      <img src={Profile} className="profile" />
+      {!isMobile ? <img src={Profile} className="profile" /> : <img src={MobileProfile} className="mobileprofile" />}
       <div className="who">Who am I?</div>
       <div className="bio">
         My name's Zac and I build elegantly simple and beautiful websites. I have a Masters in Biomedical Engineering
