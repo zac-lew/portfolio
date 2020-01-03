@@ -19,7 +19,10 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 10px;
-    div {
+    .parallax-outer {
+      width: 30%;
+    }
+    .parallax-inner {
       color: #141c3a;
       font-weight: 800;
       background-color: #fff;
@@ -27,6 +30,8 @@
       display: flex;
       flex-direction: column;
       margin: 10px;
+      border-radius: 15px;
+      border: 1px solid #a4cacb;
       .card-header {
         border: none;
         h2 {
@@ -57,10 +62,5 @@
         }
       }
     }
-  }
-  .technical-skills {
-    border-radius: 15px;
-    border: 1px solid #a4cacb;
-    width: 30%;
   }
 }

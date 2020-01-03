@@ -17,6 +17,7 @@ import {
   Git,
   Heroku
 } from "../Assets/Logos";
+import { Parallax } from "react-scroll-parallax";
 
 const Skills = ({ isMobile }) => {
   return (
@@ -29,7 +30,7 @@ const Skills = ({ isMobile }) => {
         with:
       </div>
       <div className="skills-card">
-        <div className="technical-skills">
+        <Parallax x={[5, -5]} className="parallax-container">
           <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Front-End</h2>
           </div>
@@ -59,8 +60,8 @@ const Skills = ({ isMobile }) => {
               <div>SASS</div>
             </div>
           </div>
-        </div>
-        <div className="technical-skills">
+        </Parallax>
+        <Parallax className="parallax-container">
           <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Back-End</h2>
           </div>
@@ -86,8 +87,8 @@ const Skills = ({ isMobile }) => {
               <div>C++</div>
             </div>
           </div>
-        </div>
-        <div className="technical-skills">
+        </Parallax>
+        <Parallax x={[-5, 5]} className="parallax-container">
           <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Other</h2>
           </div>
@@ -113,7 +114,7 @@ const Skills = ({ isMobile }) => {
               <div>React Native</div>
             </div>
           </div>
-        </div>
+        </Parallax>
       </div>
     </div>
   );

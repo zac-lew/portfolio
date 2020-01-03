@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import Work from "./Work";
 import Footer from "./Footer";
 import Education from "./Education";
+import ScrollToTop from "../Assets/Utils/ScrollToTop";
 
 class Home extends Component {
   state = {
@@ -25,6 +26,7 @@ class Home extends Component {
     const { isMobile } = this.state;
     return (
       <React.Fragment>
+        <ScrollToTop />
         <MyNav />
         <div className="home-wrapper">
           <Intro isMobile={isMobile} />

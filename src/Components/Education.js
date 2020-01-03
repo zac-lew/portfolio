@@ -1,5 +1,6 @@
 import React from "react";
 import "./Education.scss";
+import { Parallax } from "react-scroll-parallax";
 
 const Education = () => {
   return (
@@ -10,7 +11,7 @@ const Education = () => {
         needed to thrive under high pressure conditions and work well in many different environments.
       </p>
       <div className="box-wrapper">
-        <div className="work1">
+        <Parallax x={[3, -3]}>
           <h2>Master of Biomedical Engineering</h2>
           <i class="fas fa-graduation-cap icon" />
           <h3>University of New South Wales</h3>
@@ -20,8 +21,8 @@ const Education = () => {
             <li>Apply engineering analysis and techniques to problems in medicine and life sciences</li>
             <li>Develop systems to maintain and enhance life</li>
           </ul>
-        </div>
-        <div className="work1">
+        </Parallax>
+        <Parallax x={[-3, 3]}>
           <h2>Bachelor of Mechatronic Engineering</h2>
           <i class="fas fa-graduation-cap icon" />
           <h3>University of New South Wales</h3>
@@ -32,7 +33,7 @@ const Education = () => {
             <li>Design and development of web technologies</li>
             <li>Fundamental knowledge of computing systems</li>
           </ul>
-        </div>
+        </Parallax>
       </div>
     </div>
   );

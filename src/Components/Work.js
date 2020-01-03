@@ -1,6 +1,7 @@
 import React from "react";
 import "./Work.scss";
 import { Westpac } from "../Assets/Logos";
+import { Parallax } from "react-scroll-parallax";
 
 const Work = ({ isMobile }) => {
   return (
@@ -10,7 +11,7 @@ const Work = ({ isMobile }) => {
         Most of my software development is focussed around front-end web development using the JavaScript framework
         React. This allows me to build interactive web applications and are both aesthetic and functional.
       </p>
-      <div className="job-container">
+      <Parallax y={[20, -20]}>
         <img src={Westpac} className="logo" />
         <div className="title">Junior Developer</div>
         <div className="date">2018 - Current</div>
@@ -38,7 +39,7 @@ const Work = ({ isMobile }) => {
             </div>
           </div>
         </div>
-      </div>
+      </Parallax>
     </div>
   );
 };
