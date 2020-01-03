@@ -11,7 +11,7 @@ const Education = () => {
         needed to thrive under high pressure conditions and work well in many different environments.
       </p>
       <div className="box-wrapper">
-        <Parallax x={[3, -3]}>
+        <Parallax x={[1, -1]}>
           <h2>Master of Biomedical Engineering</h2>
           <i class="fas fa-graduation-cap icon" />
           <h3>University of New South Wales</h3>
@@ -22,7 +22,7 @@ const Education = () => {
             <li>Develop systems to maintain and enhance life</li>
           </ul>
         </Parallax>
-        <Parallax x={[-3, 3]}>
+        <Parallax x={[-1, 1]}>
           <h2>Bachelor of Mechatronic Engineering</h2>
           <i class="fas fa-graduation-cap icon" />
           <h3>University of New South Wales</h3>

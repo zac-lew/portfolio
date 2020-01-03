@@ -11,7 +11,7 @@ const Work = ({ isMobile }) => {
         Most of my software development is focussed around front-end web development using the JavaScript framework
         React. This allows me to build interactive web applications and are both aesthetic and functional.
       </p>
-      <Parallax y={[20, -20]}>
+      <Parallax y={[10, -10]}>
         <img src={Westpac} className="logo" />
         <div className="title">Junior Developer</div>
         <div className="date">2018 - Current</div>

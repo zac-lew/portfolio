@@ -30,7 +30,7 @@ const Skills = ({ isMobile }) => {
         with:
       </div>
       <div className="skills-card">
-        <Parallax x={[5, -5]} className="parallax-container">
+        <Parallax x={[3, -3]} className="parallax-container">
           <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Front-End</h2>
           </div>
@@ -88,7 +88,7 @@ const Skills = ({ isMobile }) => {
             </div>
           </div>
         </Parallax>
-        <Parallax x={[-5, 5]} className="parallax-container">
+        <Parallax x={[-3, 3]} className="parallax-container">
           <div className={isMobile ? "mobile-card-header" : "card-header"}>
             <h2>Other</h2>
           </div>
