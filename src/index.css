@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   font-weight: 400 !important;
-  font-family: "eurostile", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   font-size: 13pt;
   color: #141c3a;
   -webkit-font-smoothing: antialiased;
@@ -21,4 +23,9 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 300 !important;
+}
+
+a {
+  color: #a4cacb !important;
+  font-weight: bold;
 }

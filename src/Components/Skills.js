@@ -15,13 +15,13 @@ import {
   Java,
   C,
   Git,
-  Heroku
+  Heroku,
 } from "../Assets/Logos";
 import { Parallax } from "react-scroll-parallax";
 
-const Skills = ({ isMobile }) => {
+const Skills = ({ isMobile, leadershipRef }) => {
   return (
-    <div className="skills">
+    <div className="skills" id="Leadership" ref={leadershipRef}>
       <h1>
         <span>Skills</span>
       </h1>

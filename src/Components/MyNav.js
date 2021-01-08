@@ -1,17 +1,25 @@
 import React from "react";
-import { Button } from "reactstrap";
-import logo from "../logo.png";
 import "./MyNav.scss";
 
-const MyNav = () => {
+const MyNav = ({ scrollTo, leadershipRef, headerRef }) => {
   return (
-    <div className="nav-wrapper">
+    <div className="nav-wrapper" ref={headerRef}>
       <div className="logo">
         <i class="fas fa-code icon" />
       </div>
-      <a class="contact" href="mailto:zaclew922@gmail.com">
-        Contact Me
-      </a>
+      <div className="nav-headers">
+        <div>About Me</div>
+        <div>|</div>
+        <div onClick={() => scrollTo(leadershipRef.current)}>Skills</div>
+        <div>|</div>
+        <div>Work</div>
+        <div>|</div>
+        <div>Projects</div>
+        <div>|</div>
+        <div>Education</div>
+        <div>|</div>
+        <div>Contact Me</div>
+      </div>
     </div>
   );
 };

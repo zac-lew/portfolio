@@ -3,20 +3,36 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 3% 5% 0.5% 5%;
+  padding: 0.7% 0% 0.7% 1.5%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+  border-bottom: 1px solid #a4cacb;
+  .nav-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    div {
+      display: block;
+      color: #a4cacb;
+      font-weight: 400;
+      font-size: 16pt;
+    }
+    div:nth-child(odd):hover {
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    div:nth-child(1) {
+      border-bottom: 1px solid #a4cacb;
+    }
+  }
   .icon {
     font-size: 50pt;
     color: #a4cacb;
-  }
-  .contact {
-    display: block;
-    color: #a4cacb;
-    font-weight: 800;
-    font-size: 18pt;
-  }
-  .contact:hover {
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 20pt;
   }
 }
