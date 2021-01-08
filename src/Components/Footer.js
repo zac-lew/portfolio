@@ -12,7 +12,7 @@ const Footer = () => {
         <SocialIcon bgColor="#fff" url="https://www.linkedin.com/in/zac-lew-1a616614a/" />
         <SocialIcon bgColor="#fff" url="https://github.com/zac-lew" />
       </div>
-      <div className="copyright">Copyright &copy; 2019 Zac Lew</div>
+      <div className="copyright">Copyright &copy; 2021 Zac Lew</div>
     </div>
   );
 };
