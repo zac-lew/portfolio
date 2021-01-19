@@ -7,10 +7,11 @@ import Work from "./Work";
 import Footer from "./Footer";
 import Education from "./Education";
 import ScrollToTop from "../Assets/Utils/ScrollToTop";
+import Projects from "./Projects";
 
 class Home extends Component {
   state = {
-    isMobile: false
+    isMobile: false,
   };
   componentDidMount() {
     this.setWindowSize();
@@ -31,8 +32,9 @@ class Home extends Component {
         <div className="home-wrapper">
           <Intro isMobile={isMobile} />
           <Skills isMobile={isMobile} />
-          <Work isMobile={isMobile} />
+          <Projects isMobile={isMobile} />
           <Education />
+          <Work isMobile={isMobile} />
           <Footer />
         </div>
       </React.Fragment>

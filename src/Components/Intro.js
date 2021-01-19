@@ -7,7 +7,7 @@ const Intro = ({ isMobile }) => {
   return (
     <div className="intro">
       <div className="name">Zac Lew</div>
-      <div className="role">Web Developer and Mechatronics Engineer</div>
+      <div className="role">Front-End Web Developer</div>
       {!isMobile ? <img src={Profile} className="profile" /> : <img src={MobileProfile} className="mobileprofile" />}
       <div className="who">Who am I?</div>
       <div className="bio">
