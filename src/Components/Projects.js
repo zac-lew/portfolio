@@ -5,8 +5,10 @@ import projectsList from "../Assets/Projects/projectData";
 const Projects = () => {
   return (
     <div className="projects-container">
-      <h1>Projects</h1>
-      <div className="blurb">Here are a few of the projects I've worked on:</div>
+      <h1>
+        <span>Projects</span>
+      </h1>
+      <div className="body-text">Here are a few of the projects I've worked on:</div>
       <div className="projects">{generateProjects(projectsList)}</div>
     </div>
   );
@@ -17,7 +19,6 @@ const generateProjects = (projectsList) => {
     <div className="individual-project">
       <h2>{project.projectTitle}</h2>
       <img src={project.imageSource} alt={project.projectTitle} />
-      <div>{project.description}</div>
     </div>
   ));
 };

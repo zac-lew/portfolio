@@ -1,63 +1,70 @@
 .work {
+  color: #fff;
+  background: linear-gradient(#a4cacb 30%, #fff 70%);
   padding: 3%;
-  .parallax-outer {
-    width: 90%;
-    margin: 0 auto;
+  h1 {
+    margin-bottom: 20px;
   }
-  .parallax-inner {
-    height: auto;
-    padding: 20px;
-    background-color: #a4cacb;
-    color: #fff;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    .title {
-      font-size: 20pt;
+  .body-text {
+    margin-bottom: 30px;
+  }
+  .job-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2%;
+    color: #000;
+    .outer-card {
+      cursor: pointer;
+      height: 100%;
+      width: 40%;
+      margin-bottom: 30px;
     }
-    .date {
-      font-size: 16pt;
+    .inner-card {
+      border: 1px solid#a4cacb;
+      border-radius: 15px;
+      padding: 2%;
+      background-color: #fff;
+      .card-title {
+        margin: auto;
+        width: 90%;
+        .team-number {
+          border-bottom: 1px solid #a4cacb;
+          margin-top: 10px;
+          padding-bottom: 10px;
+        }
+        .team-title {
+          margin-top: 120px;
+        }
+      }
+      .job-outline {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 5%;
+        ul {
+          margin-left: -40px;
+          list-style-type: none;
+          li {
+            margin-bottom: 10px;
+          }
+        }
+      }
     }
-    .job-body {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      margin-top: 30px;
-      .description {
-        width: 50%;
-      }
-      .tools {
-        border-left: 1px solid #fff;
-        width: 50%;
-      }
-      ul {
-        list-style: none;
-        margin-top: 20px;
-        margin-left: -30px;
-        li {
-          margin-bottom: 20px;
+    .team3 {
+      .card-title {
+        .team-title {
+          margin-top: 100px;
         }
       }
     }
   }
-  .logo {
-    height: 100px;
+  .icon {
+    color: #a4cacb;
+    height: 60px;
     width: auto;
-  }
-  .header {
-    font-size: 40px;
-  }
-  p {
-    margin: 3%;
-  }
-  @media only screen and (max-width: 1100px) {
-    .box-wrapper {
-      flex-direction: column;
-      justify-content: center;
-    }
-    .box-wrapper > div {
-      width: 100%;
-    }
+    margin-top: 30px;
   }
 }

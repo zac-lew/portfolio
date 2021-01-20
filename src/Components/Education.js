@@ -5,11 +5,13 @@ import { Parallax } from "react-scroll-parallax";
 const Education = () => {
   return (
     <div className="education">
-      <div className="header">Education</div>
-      <p>
+      <h1>
+        <span>Education</span>
+      </h1>
+      <div className="body-text">
         Through my education and working history I have been lucky enough to hone and develop the essential skills
         needed to thrive under high pressure conditions and work well in many different environments.
-      </p>
+      </div>
       <div className="box-wrapper">
         <Parallax>
           <h2>Master of Biomedical Engineering</h2>
