@@ -15,26 +15,24 @@
   .body-text {
     margin-bottom: 30px;
   }
-  .skills-card {
+  .skill-card-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 10px;
-    .parallax-outer {
-      width: 35%;
-      padding: 1%;
-    }
-    .parallax-inner {
+    .skill-card {
       color: #141c3a;
       font-weight: 800;
       background-color: #fff;
       padding: 2%;
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       margin: 10px;
       border-radius: 15px;
       border: 1px solid #a4cacb;
-      width: 100%;
+      width: 45%;
       .card-header {
         background-color: #fff;
         border: none;

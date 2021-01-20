@@ -30,11 +30,11 @@ const Work = ({ isMobile }) => {
           </div>
           <div className="job-outline">
             <ul>
-              <li>Designed and developed user interfaces using React</li>
-              <li>Implemented Restful API's to retrieve and display data</li>
-              <li>Designed and implemented Redux workflow for management of data within the front-end applications</li>
+              <li>Designed and developed user interfaces using React.</li>
+              <li>Implemented Restful API's to retrieve and display data.</li>
+              <li>Designed and implemented Redux workflow for management of data within the front-end applications.</li>
               <li>Interfaced with Bitbucket to manage and control code changes.</li>
-              <li>Assisted in converting legacy systems from pure JS and Angular.JS to React</li>
+              <li>Assisted in converting legacy systems from pure JS and Angular.JS to React.</li>
               <li>
                 Used Java to develop a tool capable of converting Excel files containing test cases to Jira tickets.
               </li>
@@ -60,15 +60,15 @@ const Work = ({ isMobile }) => {
             <ul>
               <li>
                 Worked with custom-designed asset management tools, such as Flexera, to ensure accurate licensing and
-                compliance within the company
+                compliance within the company.
               </li>
               <li>Used Powershell to automate the process of checking servers for firewalls.</li>
               <li>
-                Communicated with service owners and external vendors such as IBM, Westpac NZ, and The Mastermind Group
+                Communicated with service owners and external vendors such as IBM, Westpac NZ, and The Mastermind Group.
               </li>
-              <li>Managed the licensing of server spaces including Hybrid Cloud Services</li>
+              <li>Managed the licensing of server spaces including Hybrid Cloud Services.</li>
               <li>
-                Used data management and visualization tools, such as QlikView and PowerBI to produce licensing reports
+                Used data management and visualization tools, such as QlikView and PowerBI to produce licensing reports.
               </li>
             </ul>
           </div>
@@ -91,9 +91,9 @@ const Work = ({ isMobile }) => {
           <div className="job-outline">
             <ul>
               <li>Designed and developed user interface components using Angular 8.</li>
-              <li>Maintained and debugged legacy user interface components using Backbone.js</li>
-              <li>Developed a thorough suite of test cases for existing user interface components using Jasmine</li>
-              <li>Used agile techniques to complete tasks as assigned by the Scrum Master</li>
+              <li>Maintained and debugged legacy user interface components using Backbone.js.</li>
+              <li>Developed a thorough suite of test cases for existing user interface components using Jasmine.</li>
+              <li>Used agile techniques to complete tasks as assigned by the Scrum Master.</li>
             </ul>
           </div>
         </ReactCardFlipper>

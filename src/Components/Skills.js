@@ -10,14 +10,17 @@ import {
   PS,
   Matlab,
   Node,
-  PHP,
   MySQL,
   Java,
   C,
   Git,
   Heroku,
+  Angular,
+  Jasmine,
+  PowerBI,
+  Qlikview,
+  Powershell,
 } from "../Assets/Logos";
-import { Parallax } from "react-scroll-parallax";
 
 const Skills = ({ isMobile }) => {
   return (
@@ -29,16 +32,12 @@ const Skills = ({ isMobile }) => {
         I've spent plenty of time at my computer over the last few years, here's a few of the things I've mucked around
         with:
       </div>
-      <div className="skills-card">
-        <Parallax className="parallax-container">
+      <div className="skill-card-container">
+        <div className="skill-card">
           <div className={isMobile ? "mobile-card-header" : "card-header"}>
-            <h2>Front-End</h2>
+            <h2>Basic Web Technologies</h2>
           </div>
           <div className="skill-section front-end">
-            <div>
-              <img src={JS}></img>
-              <div>JavaScript</div>
-            </div>
             <div>
               <img src={HTML5}></img>
               <div>HTML5</div>
@@ -48,8 +47,23 @@ const Skills = ({ isMobile }) => {
               <div>CSS3</div>
             </div>
             <div>
+              <img src={JS}></img>
+              <div>JavaScript</div>
+            </div>
+          </div>
+        </div>
+        <div className="skill-card">
+          <div className={isMobile ? "mobile-card-header" : "card-header"}>
+            <h2>Frameworks & Libraries</h2>
+          </div>
+          <div className="skill-section back-end">
+            <div>
               <img src={ReactJs}></img>
               <div>React.JS</div>
+            </div>
+            <div>
+              <img src={Angular}></img>
+              <div>Angular 8</div>
             </div>
             <div>
               <img src={Redux}></img>
@@ -59,25 +73,44 @@ const Skills = ({ isMobile }) => {
               <img src={SASS}></img>
               <div>SASS</div>
             </div>
-          </div>
-        </Parallax>
-        <Parallax className="parallax-container">
-          <div className={isMobile ? "mobile-card-header" : "card-header"}>
-            <h2>Back-End</h2>
-          </div>
-          <div className="skill-section back-end">
             <div>
               <img src={Node}></img>
               <div>Node.JS</div>
             </div>
             <div>
-              <img src={PHP}></img>
-              <div>PHP</div>
+              <img src={Jasmine}></img>
+              <div>Jasmine</div>
             </div>
+          </div>
+        </div>
+        <div className="skill-card">
+          <div className={isMobile ? "mobile-card-header" : "card-header"}>
+            <h2>Data Management & Modelling</h2>
+          </div>
+          <div className="skill-section other">
             <div>
               <img src={MySQL}></img>
               <div>MySQL</div>
             </div>
+            <div>
+              <img src={Matlab}></img>
+              <div>MATLAB</div>
+            </div>
+            <div>
+              <img src={PowerBI}></img>
+              <div>PowerBI</div>
+            </div>
+            <div>
+              <img src={Qlikview}></img>
+              <div>Qlikview</div>
+            </div>
+          </div>
+        </div>
+        <div className="skill-card">
+          <div className={isMobile ? "mobile-card-header" : "card-header"}>
+            <h2>Other Languages & Tools</h2>
+          </div>
+          <div className="skill-section other">
             <div>
               <img src={Java}></img>
               <div>Java</div>
@@ -86,13 +119,14 @@ const Skills = ({ isMobile }) => {
               <img src={C}></img>
               <div>C++</div>
             </div>
-          </div>
-        </Parallax>
-        <Parallax className="parallax-container">
-          <div className={isMobile ? "mobile-card-header" : "card-header"}>
-            <h2>Other</h2>
-          </div>
-          <div className="skill-section other">
+            <div>
+              <img src={PS}></img>
+              <div>Photoshop</div>
+            </div>
+            <div>
+              <img src={Powershell}></img>
+              <div>Powershell</div>
+            </div>
             <div>
               <img src={Git}></img>
               <div>Git</div>
@@ -101,20 +135,8 @@ const Skills = ({ isMobile }) => {
               <img src={Heroku}></img>
               <div>Heroku</div>
             </div>
-            <div>
-              <img src={PS}></img>
-              <div>Photoshop</div>
-            </div>
-            <div>
-              <img src={Matlab}></img>
-              <div>MATLAB</div>
-            </div>
-            <div>
-              <img src={ReactJs}></img>
-              <div>React Native</div>
-            </div>
           </div>
-        </Parallax>
+        </div>
       </div>
     </div>
   );
