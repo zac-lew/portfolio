@@ -38,17 +38,23 @@ const Skills = ({ isMobile }) => {
             <h2>Basic Web Technologies</h2>
           </div>
           <div className="skill-section front-end">
-            <div>
-              <img src={HTML5}></img>
-              <div>HTML5</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={HTML5}></img>
+              </div>
+              <div className="title">HTML5</div>
             </div>
-            <div>
-              <img src={CSS3}></img>
-              <div>CSS3</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={CSS3}></img>
+              </div>
+              <div className="title">CSS3</div>
             </div>
-            <div>
-              <img src={JS}></img>
-              <div>JavaScript</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={JS}></img>
+              </div>
+              <div className="title">JavaScript</div>
             </div>
           </div>
         </div>
@@ -57,29 +63,41 @@ const Skills = ({ isMobile }) => {
             <h2>Frameworks & Libraries</h2>
           </div>
           <div className="skill-section back-end">
-            <div>
-              <img src={ReactJs}></img>
-              <div>React.JS</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={ReactJs}></img>
+              </div>
+              <div className="title">React.JS</div>
             </div>
-            <div>
-              <img src={Angular}></img>
-              <div>Angular 8</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Angular}></img>
+              </div>
+              <div className="title">Angular 8</div>
             </div>
-            <div>
-              <img src={Redux}></img>
-              <div>Redux</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Redux}></img>
+              </div>
+              <div className="title">Redux</div>
             </div>
-            <div>
-              <img src={SASS}></img>
-              <div>SASS</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={SASS}></img>
+              </div>
+              <div className="title">SASS</div>
             </div>
-            <div>
-              <img src={Node}></img>
-              <div>Node.JS</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Node}></img>
+              </div>
+              <div className="title">Node.JS</div>
             </div>
-            <div>
-              <img src={Jasmine}></img>
-              <div>Jasmine</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Jasmine}></img>
+              </div>
+              <div className="title">Jasmine</div>
             </div>
           </div>
         </div>
@@ -88,21 +106,29 @@ const Skills = ({ isMobile }) => {
             <h2>Data Management & Modelling</h2>
           </div>
           <div className="skill-section other">
-            <div>
-              <img src={MySQL}></img>
-              <div>MySQL</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={MySQL}></img>
+              </div>
+              <div className="title">MySQL</div>
             </div>
-            <div>
-              <img src={Matlab}></img>
-              <div>MATLAB</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Matlab}></img>
+              </div>
+              <div className="title">MATLAB</div>
             </div>
-            <div>
-              <img src={PowerBI}></img>
-              <div>PowerBI</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={PowerBI}></img>
+              </div>
+              <div className="title">PowerBI</div>
             </div>
-            <div>
-              <img src={Qlikview}></img>
-              <div>Qlikview</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Qlikview}></img>
+              </div>
+              <div className="title">Qlikview</div>
             </div>
           </div>
         </div>
@@ -111,29 +137,41 @@ const Skills = ({ isMobile }) => {
             <h2>Other Languages & Tools</h2>
           </div>
           <div className="skill-section other">
-            <div>
-              <img src={Java}></img>
-              <div>Java</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Java}></img>
+              </div>
+              <div className="title">Java</div>
             </div>
-            <div>
-              <img src={C}></img>
-              <div>C++</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={C}></img>
+              </div>
+              <div className="title">C++</div>
             </div>
-            <div>
-              <img src={PS}></img>
-              <div>Photoshop</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={PS}></img>
+              </div>
+              <div className="title">Photoshop</div>
             </div>
-            <div>
-              <img src={Powershell}></img>
-              <div>Powershell</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Powershell}></img>
+              </div>
+              <div className="title">Powershell</div>
             </div>
-            <div>
-              <img src={Git}></img>
-              <div>Git</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Git}></img>
+              </div>
+              <div className="title">Git</div>
             </div>
-            <div>
-              <img src={Heroku}></img>
-              <div>Heroku</div>
+            <div className="icon-container">
+              <div className="icon">
+                <img src={Heroku}></img>
+              </div>
+              <div className="title">Heroku</div>
             </div>
           </div>
         </div>
