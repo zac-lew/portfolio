@@ -4,7 +4,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>Get in contact!</h1>
+      <h1>Get in touch!</h1>
       <a href="https://www.facebook.com/zacl922/" target="_blank" rel="noopener noreferrer">
         <i class="icon fab fa-facebook"></i>
       </a>
