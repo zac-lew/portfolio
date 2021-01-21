@@ -16,9 +16,13 @@ const Projects = () => {
 
 const generateProjects = (projectsList) => {
   return projectsList.map((project, i) => (
-    <div className="individual-project">
-      <h2>{project.projectTitle}</h2>
-      <img src={project.imageSource} alt={project.projectTitle} />
+    <div className="individual-project" style={{ backgroundImage: "url(" + project.imageSource + ")" }} key={i}>
+      <div className="project-description">
+        <div className="hover">
+          <h2>{project.projectTitle}</h2>
+          <p>{project.description}</p>
+        </div>
+      </div>
     </div>
   ));
 };
