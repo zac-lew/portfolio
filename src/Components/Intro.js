@@ -2,10 +2,12 @@ import React from "react";
 import "./Intro.scss";
 import Profile from "../Assets/profile.png";
 import MobileProfile from "../Assets/mobileprofile.png";
+import MyNav from "./MyNav";
 
 const Intro = ({ isMobile }) => {
   return (
     <div className="intro">
+      <MyNav />
       <div className="name">Zac Lew</div>
       <div className="role">Front-End Web Developer</div>
       {!isMobile ? <img src={Profile} className="profile" /> : <img src={MobileProfile} className="mobileprofile" />}

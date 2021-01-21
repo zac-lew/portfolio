@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactFullpage from "@fullpage/react-fullpage";
 import MyNav from "./MyNav";
 import "./Home.css";
 import Intro from "./Intro";
@@ -26,18 +27,31 @@ class Home extends Component {
   render() {
     const { isMobile } = this.state;
     return (
-      <React.Fragment>
-        <ScrollToTop />
-        <MyNav />
-        <div className="home-wrapper">
-          <Intro isMobile={isMobile} />
-          <Skills isMobile={isMobile} />
-          <Projects isMobile={isMobile} />
-          <Education />
-          <Work isMobile={isMobile} />
-          <Footer />
-        </div>
-      </React.Fragment>
+      <ReactFullpage
+        scrollingSpeed={800}
+        navigation
+        render={() => {
+          return (
+            <ReactFullpage.Wrapper>
+              <div className="section">
+                <Intro isMobile={isMobile} />
+              </div>
+              <div className="section">
+                <Skills isMobile={isMobile} />
+              </div>
+              <div className="section">
+                <Projects isMobile={isMobile} />
+              </div>
+              <div className="section">
+                <Education />
+              </div>
+              <div className="section">
+                <Work isMobile={isMobile} />
+              </div>
+            </ReactFullpage.Wrapper>
+          );
+        }}
+      />
     );
   }
 }
