@@ -1,5 +1,5 @@
 //server.js
-import sslRedirect from "heroku-ssl-redirect";
+const sslRedirect = require("heroku-ssl-redirect").default;
 const express = require("express");
 const favicon = require("express-favicon");
 const path = require("path");
