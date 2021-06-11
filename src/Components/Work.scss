@@ -1,43 +1,54 @@
 .work {
-  color: #fff;
-  background: linear-gradient(#a4cacb 30%, #fff 70%);
   text-align: center;
   height: 100%;
-  padding-top: 3%;
-  h1 {
-    margin-bottom: 2%;
-  }
+  margin-bottom: 2%;
   .body-text {
     margin-bottom: 3%;
+    padding: 2% 15% 0;
   }
   .job-body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 2%;
     color: #000;
     .outer-card {
       cursor: pointer;
       height: 100%;
       width: 40%;
-      margin-bottom: 30px;
+      margin: 0 25px 50px;
     }
     .inner-card {
-      border: 1px solid#a4cacb;
       border-radius: 15px;
+      color: black;
+      background-color: white;
       padding: 2%;
-      background-color: #fff;
+      -webkit-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
+      -moz-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
+      box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
       .card-title {
         margin: auto;
         width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
         .team-number {
-          border-bottom: 1px solid #a4cacb;
-          margin-top: 10px;
-          padding-bottom: 10px;
+          border-bottom: 1px solid lightgray;
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
         .team-title {
-          margin-top: 120px;
+          flex: 7;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h3 {
+            font-size: 19pt !important;
+          }
         }
       }
       .job-outline {
@@ -46,6 +57,7 @@
         display: flex;
         align-items: center;
         padding: 5%;
+        font-size: 12pt;
         ul {
           margin-left: -40px;
           margin-top: 20px;
@@ -56,16 +68,9 @@
         }
       }
     }
-    .team3 {
-      .card-title {
-        .team-title {
-          margin-top: 100px;
-        }
-      }
-    }
   }
   .icon {
-    color: #a4cacb;
+    color: #84cee2;
     height: 60px;
     width: auto;
     margin-top: 30px;

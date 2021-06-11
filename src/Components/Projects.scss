@@ -1,9 +1,9 @@
-.projects-container {
+.desktop-projects {
   color: #fff;
-  background: linear-gradient(#a4cacb 30%, #fff 70%);
+  background: linear-gradient(#84cee2 30%, #fff 70%);
   text-align: center;
   height: 100%;
-  padding-top: 3%;
+  padding: 3% 3% 1%;
   h1 {
     margin-bottom: 2%;
   }
@@ -17,14 +17,13 @@
     flex-wrap: wrap;
     color: #000;
     .individual-project {
-      width: 48%;
-      height: 330px;
       border-radius: 15px;
       background-size: cover;
       background-repeat: no-repeat;
       color: #fff;
       position: relative;
       cursor: pointer;
+      margin-bottom: 3%;
       .project-description {
         height: 100%;
         width: 100%;
@@ -34,26 +33,33 @@
         top: 0;
         width: 100%;
         z-index: 2;
-        transition: background-color 350ms ease;
+        transition: background-color 500ms ease;
         background-color: transparent;
-        padding: 20px 20px 0 20px;
         box-sizing: border-box;
         .hover {
           height: 100%;
           width: 100%;
           opacity: 0;
           transition: opacity 350ms ease;
-          padding: 4%;
-          h2 {
-            margin-bottom: 6%;
-            margin-top: -4%;
-            color: #fff;
-            transform: translate3d(0, 50px, 0);
-            transition: transform 350ms ease;
-          }
-          p {
-            transform: translate3d(0, 50px, 0);
-            transition: transform 350ms ease;
+          padding: 1% 5% 1% 5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .inner-hover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2 {
+              color: #fff;
+              transform: translate3d(0, 0px, 0);
+              transition: transform 350ms ease;
+              margin-bottom: 5%;
+            }
+            p {
+              transform: translate3d(0, 0px, 0);
+              transition: transform 350ms ease;
+            }
           }
         }
       }
@@ -65,5 +71,9 @@
         opacity: 1;
       }
     }
+  }
+  .divider {
+    margin: 2% 5%;
+    border-top: 1px solid lightgrey;
   }
 }
