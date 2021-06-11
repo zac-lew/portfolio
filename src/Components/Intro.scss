@@ -1,36 +1,82 @@
-.intro {
+.desktop-intro {
   color: #141c3a;
   text-align: center;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2% 20% 4%;
   a {
-    color: #a4cacb;
+    color: #84cee2;
   }
   .icon {
-    font-size: 60pt;
-    margin-bottom: 30px;
-    color: #a4cacb;
+    font-size: 40pt;
+    color: #84cee2;
+    position: absolute;
+    left: 50px;
+    top: 30px;
   }
-  .name {
-    font-size: 3rem !important;
-    font-weight: 800;
-  }
-  .role {
-    font-size: 18pt;
-    margin-bottom: 40px;
+  .intro-header {
+    .name {
+      font-size: 3rem !important;
+      font-weight: 800;
+      // margin-bottom: -2%;
+    }
+    .role {
+      font-size: 18pt;
+    }
+    margin-bottom: 2%;
   }
   .profile {
-    height: 300px;
-    margin-left: 230px;
-    width: auto;
-    margin-bottom: 50px;
+    align-items: center;
+    margin-left: 25%;
   }
-  .mobileprofile {
-    height: 400px;
-    width: auto;
-    margin-bottom: 50px;
+  .intro-description {
+    .who {
+      font-size: 18pt;
+      margin-bottom: 1%;
+    }
   }
-  .who {
-    font-size: 18pt;
-    margin-bottom: 30px;
+}
+
+.mobile-intro {
+  color: #141c3a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2% 10% 4%;
+
+  a {
+    color: #84cee2;
+  }
+  .icon {
+    font-size: 25pt;
+    color: #84cee2;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .intro-header {
+    .name {
+      font-size: 22pt;
+      font-weight: 600;
+    }
+    .role {
+      font-size: 13pt;
+    }
+  }
+  .profile {
+    align-items: center;
+  }
+  .intro-description {
+    .who {
+      font-size: 15pt;
+      font-weight: 600;
+    }
+    .bio {
+      font-size: 11pt;
+    }
   }
 }

@@ -1,74 +1,61 @@
-.skills {
-  color: #fff;
-  background: linear-gradient(#a4cacb 30%, #fff 70%);
+.desktop-skills,
+.mobile-skills {
+  background: linear-gradient(#84cee2 30%, #fff 70%);
   text-align: center;
-  height: 100%;
-  padding-top: 3%;
-  h1 {
-    margin-bottom: 2%;
-  }
+  color: white;
+}
+
+.desktop-skills {
+  padding: 2% 15% 4%;
   .body-text {
-    margin-bottom: 3%;
+    margin: 3% 3% 5%;
   }
-  .skill-card-container {
+  .skills-display {
+    color: black;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    // margin-bottom: 10px;
-    .skill-card {
-      color: #141c3a;
-      font-weight: 800;
-      background-color: #fff;
-      padding: 1%;
+    margin: 2%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    .front-end,
+    .back-end {
+      border-right: 1px solid lightgrey;
+    }
+    .skill-topic {
+      width: 50%;
+      padding: 2% 5%;
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
-      margin: 10px;
-      border-radius: 15px;
-      border: 1px solid #a4cacb;
-      width: 45%;
-      .card-header {
-        background-color: #fff;
-        border: none;
-        margin: 5px;
-        padding: 1%;
-        h2 {
-          text-align: left;
-        }
+      .skill-title {
+        margin-bottom: 15%;
       }
-      .skill-section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        border-top: 1px solid #274472;
-        // margin: 10px;
-        padding: 2%;
-        .icon-container {
-          margin-top: 10px;
-          font-size: 8pt;
-          width: 80px;
-          height: 120px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-self: center;
-          padding: 2%;
-          .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            img {
-              align-self: center;
-              margin: -10px;
-              height: auto;
-              width: 100%;
-            }
-          }
+      .skill-description {
+        margin-bottom: 15%;
+        font-size: 12pt;
+      }
+      h4 {
+        margin-bottom: 15%;
+        font-size: 15pt;
+        font-weight: 350;
+      }
+      .skill-list {
+        list-style: none;
+        margin-left: -40px;
+        li {
+          margin-bottom: 3%;
         }
       }
     }
+    .icon {
+      color: #84cee2;
+      height: 60px;
+      width: auto;
+      margin-bottom: 15%;
+    }
+  }
+  .divider {
+    margin: 8% -8% 0%;
+    border-top: 1px solid lightgrey;
   }
 }

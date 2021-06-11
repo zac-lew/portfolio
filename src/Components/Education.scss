@@ -1,69 +1,54 @@
 .education {
-  color: #fff;
-  background: linear-gradient(#a4cacb 30%, #fff 70%);
   text-align: center;
   height: 100%;
-  padding-top: 3%;
+  padding: 0% 10% 1%;
+  margin-bottom: 5%;
   h1 {
     margin-bottom: 2%;
   }
   .body-text {
     margin-bottom: 3%;
   }
-  .icon {
-    color: #a4cacb;
-    height: 60px;
-    width: auto;
-    margin-bottom: 10px;
-  }
-  .header {
-    font-size: 40px;
-  }
-  .box-wrapper {
+  .education-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-left: 4%;
-    padding-right: 4%;
-    .parallax-outer {
-      width: 90%;
-    }
-    .parallax-inner {
-      border: 1px solid #a4cacb;
-      align-self: center;
-      background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .individual-education {
+      width: 45%;
       border-radius: 15px;
-      color: #141c3a;
-      margin: 10px;
+      margin: 1% 2%;
+      color: black;
+      background-color: white;
       padding: 2%;
-      height: 450px;
-      h2 {
-        margin-top: 3%;
-        margin-bottom: 3%;
+      -webkit-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
+      -moz-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
+      box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
+      .icon {
+        color: #84cee2;
+        height: 60px;
+        width: auto;
+        margin-bottom: 4%;
       }
-      h3 {
-        font-size: 18pt;
-        margin-bottom: 15px;
+      .education-title {
+        margin-bottom: 4%;
       }
-      h4 {
-        font-size: 13pt;
-        margin-bottom: 8%;
+      .uni {
+        margin-bottom: 4%;
+        font-size: 20pt !important;
       }
-      ul {
+      .year {
+        margin-bottom: 4%;
+        font-size: 16pt !important;
+      }
+      .education-description {
         list-style: none;
+        margin-left: -40px;
         li {
-          margin-bottom: 11px;
+          margin-bottom: 2%;
         }
       }
-    }
-  }
-  @media only screen and (max-width: 1100px) {
-    .box-wrapper {
-      flex-direction: column;
-      justify-content: center;
-    }
-    .box-wrapper > div {
-      width: 100%;
     }
   }
 }

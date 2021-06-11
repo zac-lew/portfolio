@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "reactstrap";
-import logo from "../logo.png";
 import "./MyNav.scss";
 
 const MyNav = () => {
@@ -10,7 +8,7 @@ const MyNav = () => {
         <i class="fas fa-code icon" />
       </div>
       <a class="contact" href="mailto:zaclew922@gmail.com">
-        Contact Me
+        Get In Touch!
       </a>
     </div>
   );

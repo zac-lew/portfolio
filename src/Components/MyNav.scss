@@ -3,20 +3,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0% 3% 0% 3%;
   .icon {
-    font-size: 50pt;
-    color: #a4cacb;
+    font-size: 40pt;
+    color: #84cee2;
   }
   .contact {
     display: block;
-    color: #a4cacb;
+    color: #84cee2;
     font-weight: 800;
-    font-size: 18pt;
+    font-size: 16pt;
   }
   .contact:hover {
     cursor: pointer;
     text-decoration: none;
-    font-size: 20pt;
   }
 }
