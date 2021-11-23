@@ -5,9 +5,9 @@ export default [
     teamFaIcon: "fa-chart-line",
     teamHighlights: [
       "Designed and developed user interfaces using React.",
-      "Implemented Restful API's to retrieve and display data.",
+      "Connected to Restful APIs to retrieve and display data.",
       "Designed and implemented Redux workflow for management of data within the front-end applications.",
-      "Interfaced with Bitbucket to manage and control code changes.",
+      "Use of agile methods, including sprints and standups, while making use of project management tools such as Jira and Confluence.",
       "Assisted in converting legacy systems from pure JS and Angular.JS to React.",
       "Used Java to develop a tool capable of converting Excel files containing test cases to Jira tickets.",
     ],
@@ -29,7 +29,7 @@ export default [
     teamTitle: "BT Super - Wealth Management Technology",
     teamFaIcon: "fa-wallet",
     teamHighlights: [
-      "Designed and developed user interface components using Angular 8.",
+      "Designed and developed user interface components using Angular8.",
       "Maintained and debugged legacy user interface components using Backbone.js.",
       "Developed a thorough suite of test cases for existing user interface components using Jasmine.",
       "Used agile techniques to complete tasks as assigned by the Scrum Master.",
@@ -37,12 +37,12 @@ export default [
   },
   {
     teamNumber: 4,
-    teamTitle: "App Development - Banking Platform App Delivery",
+    teamTitle: "Application Development",
     teamFaIcon: "fa-desktop",
     teamHighlights: [
       "Used Java and SpringBoot to build and maintain APIs within the bank.",
-      "Used Agile methods to ensure development targets were accomplished on time.",
-      "Used Confluence to document necessary changes within the code.",
+      "Built proxy and partner APIs to connect internal banking functions to external services, such as Appian.",
+      "Built Kafka producers, topics and listeners to handle event management capabilities such as customer notifications. ",
       "Investigated and fixed issues discovered in test and production environments.",
       "Established methods of optimising APIs to improve efficiency and reduce loading times.",
     ],
