@@ -23,7 +23,7 @@ const generateWorkCards = () => {
     return (
       <ReactCardFlipper
         behavior="hover"
-        width="500px"
+        width="600px"
         height="400px"
         className="outer-card"
         innerCardClass="inner-card">
