@@ -23,7 +23,7 @@
     "sass": "^1.53.0",
     "sqlite3": "^5.0.8",
     "styled-components": "^4.4.1",
-    "terser": "^3.14.1"
+    "terser": "^4.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
