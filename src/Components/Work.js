@@ -1,53 +1,50 @@
 import React from "react";
 import "./Work.scss";
-import ReactCardFlipper from "react-card-flipper";
 import workCards from "../Assets/workCards";
 
 const Work = ({ isMobile }) => {
   return (
     <div className={isMobile ? "mobile-work work" : "work"}>
       <h1>
-        <span>Work</span>
+        <div className="work-main-title">Work</div>
       </h1>
-      <div className="body-text">
-        Since 2018 I have worked as a software developer at Westpac. I have had the good fortune of working in a few
-        different teams, allowing me to develop my skills in many different areas:
+      <div className="work-subtitle">
+        Since 2018 I have worked in various software developement roles, with a combination from back-end, front-end and
+        full-stack positions.
       </div>
-      <div className="job-body">{generateWorkCards()}</div>
+      <div className="work-main-section">{generateWorkCards()}</div>
     </div>
   );
 };
 
 const generateWorkCards = () => {
-  return workCards.map((workCard, i) => {
-    return (
-      <ReactCardFlipper
-        behavior="hover"
-        width="600px"
-        height="400px"
-        className="outer-card"
-        innerCardClass="inner-card">
-        <div className="card-title" key={i}>
-          <div className="team-number">
-            <h3>Team #{workCard.teamNumber}</h3>
-          </div>
-          <div className="team-title">
-            <div>
-              <h3>{workCard.teamTitle}</h3>
-              <i class={workCard.teamFaIcon + " fas icon"} />
+  return workCards.map((company) => (
+    <div className="company-card">
+      <div className="company-name" key={company.companyName}>
+        <h2>{company.companyName} | {company.datesActive}</h2>
+      </div>
+      <div className="company-roles">
+        {company.roles.map((role) => (
+          <div>
+            <div className="card-title" key={role.teamTitle}>
+              <div className="team-title">
+                <div>
+                  <h4>{`${role.teamTitle} - ${role.teamRole} (${role.datesActive})`}</h4>
+                </div>
+              </div>
+            </div>
+            <div className="job-outline">
+              <ul>
+                {role.teamHighlights.map((highlight, i) => (
+                  <li key={i}>{highlight}</li>
+                ))}
+              </ul>
             </div>
           </div>
-        </div>
-        <div className="job-outline">
-          <ul>
-            {workCard.teamHighlights.map((highlight, i) => (
-              <li key={i}>{highlight}</li>
-            ))}
-          </ul>
-        </div>
-      </ReactCardFlipper>
-    );
-  });
+        ))}
+      </div>
+    </div>
+  ));
 };
 
 export default Work;

@@ -1,78 +1,31 @@
 .work {
-  text-align: center;
   height: 100%;
   margin-bottom: 2%;
-  .body-text {
-    margin-bottom: 3%;
+  .work-main-title {
+    text-align: center;
+  }
+  .work-subtitle {
     padding: 2% 15% 0;
   }
-  .job-body {
+  .work-main-section {
+    padding: 2% 10% 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2%;
-    color: #000;
-    .outer-card {
-      cursor: pointer;
-      height: 100%;
-      width: 40%;
-      margin: 0 25px 50px;
-    }
-    .inner-card {
+    flex-direction: column;
+    .company-card {
+      display: flex;
+      flex-direction: column;
       border-radius: 15px;
+      margin: 1% 2%;
       color: black;
       background-color: white;
       padding: 2%;
       -webkit-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
       -moz-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
       box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
-      .card-title {
-        margin: auto;
-        width: 90%;
-        height: 100%;
+      .job-outline {
         display: flex;
         flex-direction: column;
-        padding: 2%;
-        .team-number {
-          border-bottom: 1px solid lightgray;
-          flex: 1;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .team-title {
-          flex: 7;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          h3 {
-            font-size: 19pt !important;
-          }
-        }
-      }
-      .job-outline {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        padding: 5%;
-        font-size: 12pt;
-        text-align: left;
-        ul {
-          margin-left: -40px;
-          margin-top: 20px;
-          li {
-            margin-bottom: 15px;
-          }
-        }
       }
     }
-  }
-  .icon {
-    color: #84cee2;
-    height: 60px;
-    width: auto;
-    margin-top: 30px;
   }
 }
