@@ -11,7 +11,7 @@ const Intro = ({ isMobile }) => {
       <i class="fas fa-code icon" />
       <div className="intro-header top-layer">
         <h1 className="name">Zac Lew</h1>
-        <h3 className="role">Software Engineer & Web Developer</h3>
+        <h3 className="role">Full Stack Developer</h3>
       </div>
       <div className="profile top-layer">
         <ProfileSection isMobile={isMobile} height={height} />
@@ -19,11 +19,9 @@ const Intro = ({ isMobile }) => {
       <div className="intro-description top-layer">
         <h2 className="who">Who am I?</h2>
         <div className="bio">
-          My name is Zac and I'm a software developer at{" "}
-          <a href="https://www.westpac.com.au" target="_blank">
-            Westpac
-          </a>
-          . I build elegantly simple and beautiful websites and applications that are accessible and responsive.
+        My name is Zac and I'm a full-stack engineer with over {new Date().getFullYear() - 2020} years of experience and expertise in supply chain optimization, financial technology, and
+web development. Skilled in designing dynamic systems, leading projects, and working with technologies like React, Ruby,
+Node.js, and Java to deliver efficient, scalable solutions.
         </div>
       </div>
     </div>
