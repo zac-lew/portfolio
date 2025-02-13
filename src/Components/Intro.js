@@ -19,7 +19,7 @@ const Intro = ({ isMobile }) => {
       <div className="intro-description top-layer">
         <h2 className="who">Who am I?</h2>
         <div className="bio">
-        My name is Zac and I'm a full-stack engineer with over {new Date().getFullYear() - 2020} years of experience and expertise in supply chain optimization, financial technology, and
+        My name is Zac and I'm a full-stack engineer with over {new Date().getFullYear() - 2019} years of experience and expertise in supply chain optimization, financial technology, and
 web development. Skilled in designing dynamic systems, leading projects, and working with technologies like React, Ruby,
 Node.js, and Java to deliver efficient, scalable solutions.
         </div>
