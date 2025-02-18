@@ -22,6 +22,22 @@
       -webkit-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
       -moz-box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
       box-shadow: -1px 1px 5px 0px rgba(220, 220, 220, 1);
+      .company-header {
+        text-align: center;
+        margin-bottom: 1em;
+        .company-name {
+          text-align: left;
+          margin-top: 2em;
+        }
+      }
+      .company-role {
+        margin-bottom: 0.5em;
+      }
+      .icon {
+        color: #84cee2;
+        height: 60px;
+        width: auto;
+      }
       .job-outline {
         display: flex;
         flex-direction: column;
