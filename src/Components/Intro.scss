@@ -1,11 +1,10 @@
 .desktop-intro {
   color: #141c3a;
-  text-align: center;
+  text-align: left;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 2% 20% 4%;
+  justify-content: space-around;
+  background-color: white !important;
   a {
     color: #84cee2;
   }
@@ -16,25 +15,26 @@
     left: 50px;
     top: 30px;
   }
-  .intro-header {
+  .text-column {
+    padding: 1em 3em 1em;
+  }
+  .name-role {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     .name {
       font-size: 3rem !important;
-      font-weight: 800;
-      // margin-bottom: -2%;
     }
     .role {
       font-size: 18pt;
     }
     margin-bottom: 2%;
   }
-  .profile {
-    align-items: center;
-    margin-left: 25%;
-  }
   .intro-description {
+    margin-top: 10em;
     .who {
       font-size: 18pt;
-      margin-bottom: 1%;
+      margin-bottom: 1em;
     }
   }
 }
@@ -58,7 +58,7 @@
     left: 20px;
     top: 20px;
   }
-  .intro-header {
+  .name-role {
     .name {
       font-size: 22pt;
       font-weight: 600;
@@ -66,9 +66,6 @@
     .role {
       font-size: 13pt;
     }
-  }
-  .profile {
-    align-items: center;
   }
   .intro-description {
     .who {
